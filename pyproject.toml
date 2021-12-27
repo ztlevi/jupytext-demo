@@ -1,0 +1,21 @@
+[tool.jupytext]
+# Always pair ipynb notebooks to py:percent files
+formats = ["ipynb", "py:percent"]
+
+[tool.poetry]
+name = "jupytext-demo"
+version = "0.1.0"
+description = ""
+authors = ["Ting Zhou <ztlevi.work@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<=3.9"
+jupyter = "^1.0.0"
+jupytext = "^1.13.4"
+jupyterlab = "^3.2.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
